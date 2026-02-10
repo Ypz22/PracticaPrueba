@@ -14,4 +14,6 @@ npm init -y
 git init
 git add .
 git commit -m "pruebas ci/cd"
-git push
+git branch -M main
+git remote add origin https://github.com/Ypz22/PracticaPrueba.git
+git push -u origin main
